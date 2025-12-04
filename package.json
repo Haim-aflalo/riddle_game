@@ -1,0 +1,25 @@
+{
+  "name": "riddle_game",
+  "version": "1.0.0",
+  "description": "\"# riddle_game\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haim-aflalo/riddle_game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Haim-aflalo/riddle_game/issues"
+  },
+  "homepage": "https://github.com/Haim-aflalo/riddle_game#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1",
+    "chalk": "^5.6.2"
+  }
+}

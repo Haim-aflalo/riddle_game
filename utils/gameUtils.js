@@ -23,7 +23,7 @@ function mesureSolveTime(fn) {
   const start = Date.now();
   fn();
   const end = Date.now();
-  return (end - start) / 1000;
+  return Math.floor((end - start) / 1000);
 }
 
 export { askRiddle, mesureSolveTime };

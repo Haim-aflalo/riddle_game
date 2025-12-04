@@ -14,14 +14,8 @@ function showStats(player) {
   });
   average = totalTime / 4; //! change by nomber of riddles
   console.log(
-    `your total time is ${totalTime} \n your average time per riddle is ${average}`
+    `your total time is ${totalTime} seconds \n your average time per riddle is ${average} seconds`
   );
 }
 
 export { createPlayer, addSolveTime, showStats };
-
-let a = createPlayer('haim');
-addSolveTime(a, 12);
-console.log(a);
-addSolveTime(a, 12);
-console.log(a);

@@ -3,7 +3,7 @@ function createPlayer(name) {
 }
 
 function addSolveTime(player, seconds) {
-  player.times = [...player.times, seconds];
+  player.times.push(seconds);
 }
 
 function showStats(player) {
@@ -19,3 +19,9 @@ function showStats(player) {
 }
 
 export { createPlayer, addSolveTime, showStats };
+
+let a = createPlayer('haim');
+addSolveTime(a, 12);
+console.log(a);
+addSolveTime(a, 12);
+console.log(a);
